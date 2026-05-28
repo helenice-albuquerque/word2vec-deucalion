@@ -38,5 +38,7 @@ Módulo TF-IDF completo — baixou abstracts do PubMed, calculou similaridade co
 
 Estado atual:
 
-* modelo treinado com milhões de palavras biomédicas
-* testes iniciais de similaridade concluídos
+Estado atual:
+* Word2Vec treinado — 3.3M palavras, 92% cobertura biomédica
+* Classificador HSLN treinado — 92.05% accuracy no PubMed-20k-RCT
+* Módulo TF-IDF implementado — NDCG@20 de 0.5588 (paper: 0.57)
