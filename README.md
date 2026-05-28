@@ -27,8 +27,9 @@ Script SLURM para submeter o treino do Word2Vec no cluster sem perder por descon
 Teste básico do Word2Vec — palavras similares a "cancer" e "heart".
 4. test_model2.py
 Teste avançado do Word2Vec — analogias, similaridades, palavras estranhas, domínio biomédico.
-5. HSLN-Joint-Sentence-Classification/ (repositório clonado)
-Classificador hierárquico de frases biomédicas — treinado com PubMed-20k-RCT. Inclui train.py, build_data.py e model/config.py (que modificámos).
+5. HSLN-Joint-Sentence-Classification/ (repositório clonado) — Repositório original de Jin & Szolovits para classificação de frases biomédicas usando o dataset PubMed-20k-RCT.
+Neste projecto, apenas o ficheiro `model/config.py` foi modificado para adaptação dos caminhos e execução no cluster Deucalion.
+e o `job_hsln.sh` Script SLURM criado para execução do treino do HSLN no cluster.
 6. job_hsln.sh
 Script SLURM para submeter o treino do HSLN no cluster.
 7. tfidf_facets.py
