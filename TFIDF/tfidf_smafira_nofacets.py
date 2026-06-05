@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
-Entrez.email = "helenice@example.com"
+Entrez.email = "helenice06@gmail.com"
 
 GOLD_DIR    = "/projects/F202600026AIVLABDEUCALION/helenice/reranking/data/sa-eval/smafirac"
 PMIDS_SEEDS = ["16850029", "19735549", "21494637", "24204323"]
