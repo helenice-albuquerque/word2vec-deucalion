@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
 # ── Configuração ──────────────────────────────────────────────────────────────
-Entrez.email = "helenice@example.com"  # obrigatório para a API do PubMed
+Entrez.email = "helenice06@gmail.com"  # obrigatório para a API do PubMed
 
 FACETS_DIR  = "/projects/F202600026AIVLABDEUCALION/helenice/reranking/data/facets"
 GOLD_DIR    = "/projects/F202600026AIVLABDEUCALION/helenice/reranking/data/sa-eval/smafirac"
